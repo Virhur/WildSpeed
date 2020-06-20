@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Wild Speed, restaurant, food, Luka Bulbuk"/>
+    <meta name="author" content="Luka Bulbuk">
+    <meta name="description" content="Wild Speed is a restoraunt in the heart of Belgrade that encapsulates the vibrant culinary culture of Serbia."/>
+    <title>Wild Speed - Contact Page</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo_no_text.png" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo left">
+                            <img src="images/logo_text.png" alt="logo_text" id="logo-text">
+                        </a>
+                        <a href="#" data-target="mobile-dropdown" class="sidenav-trigger right"><i class="material-icons black-text">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="black-text">Home</a></li>
+                            <li><a href="menu.html" class="black-text">Menu</a></li>
+                            <li><a href="gallery.html" class="black-text">Gallery</a></li>
+                            <li class="active"><a href="contact.html" class="black-text">Contact</a></li>
+                            <li><a href="about.html" class="black-text">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        <ul class="sidenav" id="mobile-dropdown">
+            <li><a href="index.html" class="black-text">Home</a></li>
+            <li><a href="menu.html" class="black-text">Menu</a></li>
+            <li><a href="gallery.html" class="black-text">Gallery</a></li>
+            <li class="active"><a href="contact.html" class="black-text">Contact</a></li>
+            <li><a href="about.html" class="black-text">About</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="title-bar">
+            <h1>Contact Us</h1>
+        </div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col m12 l7" id="contact-form">
+                    <h3>How can we help you?</h3>
+                    <span>Please give as much detail as possible so we can route your question properly.</span>
+                    <form action="">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" id="first_name" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="text" id="last_name" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" id="phone" class="validate">
+                                <label for="phone">Phone number</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="email" id="email" class="validate">
+                                <label for="email">E-mail Address</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col xl6 l12 m12 s12">
+                                <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <div class="col xl6 l12 m12 s12">
+
+                               
+                            </div>
+                        </div>
+                        <button class="right orange darken-3 btn-large waves-effect waves-light" type="submit" name="action">
+                            Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+
+                    </form>
+                </div>
+                <div class="col m12 l5" id="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="row contact-info-section">
+                        <div class="col">
+                            <i class="material-icons">local_phone</i>
+                        </div>
+                        <div class="col">
+                            <h4>Phone</h4>
+                            <p>+123 456 78 90</p>
+                        </div>
+                    </div>
+                    <div class="row contact-info-section">
+                        <div class="col">
+                            <i class="material-icons">local_post_office</i>
+                        </div>
+                        <div class="col">
+                            <h4>E-Mail</h4>
+                            <p>info@wildspeed.com</p>
+                        </div>
+                    </div>
+                    <div class="row contact-info-section">
+                        <div class="col">
+                            <i class="material-icons">access_time</i>
+                        </div>
+                        <div class="col">
+                            <h4>Work hours</h4>
+                            <p>Mon-Sat : 8AM - 11PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+      <div id="map" style="width:100%;height:400px;"></div> 
+    
+        <div class="container" id="branches">
+            <div class="centered">
+                <img src="images/logo_no_text.png" alt="logo without text">
+                <h5>Get in touch</h5>
+                <h2>Our Branches</h2>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img class="materialboxed" src="images/branch1.jpg" alt="card image">
+                          <span class="card-title">Skadarlija</span>
+                        </div>
+                        <div class="card-action">
+                            <p class="slova">
+                                <i class="material-icons">location_on</i>
+                                Address
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">local_phone</i>
+                                +123 456 78 90
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">local_post_office</i>
+                                email@test.com
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="orange darken-3 btn waves-effect waves-light">
+                                Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img class="materialboxed" src="images/branch2.jpg"" alt="card image">
+                          <span class="card-title">Košutnjak</span>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">location_on</i>
+                                Address
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">local_phone</i>
+                                +123 456 78 90
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">local_post_office</i>
+                                email@test.com
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="orange darken-3 btn waves-effect waves-light">
+                                Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img class="materialboxed" src="images/branch3.jpg"" alt="card image">
+                          <span class="card-title">New Belgrade</span>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">location_on</i>
+                                Address
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">local_phone</i>
+                                +123 456 78 90
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <i class="material-icons">local_post_office</i>
+                                email@test.com
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="orange darken-3 btn waves-effect waves-light">
+                                Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row" id="lista">
+                <div class="col s12 m4">
+                    <img src="images/logo_white.png" alt="logo_white">
+                </div>
+                <div class="col s12 m4" id="copyright">
+                    <p>Copyright &copy; Luka Designs 2020</p>
+                    <ul>
+                        <li>
+                            <a href="css/style.scss">Scss1</a>
+                        </li>
+                        <li>
+                            <a href="css/globals.scss">Scss2</a>
+                        </li>
+                        <li>
+                            <a href="css/materialize_modded.scss">Scss3</a>
+                        </li>
+                        <li>
+                            <a href="sitemap.xml">Map</a>
+                        </li>
+                        <li>
+                            <a href="css/style.css">Css</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <ul class="white-text">
+                        <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                        <li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/mobileDropdown.js"></script>
+    <script src="js/materialbox.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-XeUqvhq32tNvcKE1zTT6X4NxI6TiMmw&callback=initMap"></script>
+</body>
+</html>

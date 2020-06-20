@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url("../fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Vivaldi';
+    src: url("../fonts/vivaldi.ttf");
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+$mainOrange : rgb(242, 103, 34);
+
+$small : 576px;
+$medium : 768px;
+$large : 992px;
+$extra-large : 1200px;
+
+
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: RobotoSlab;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(246, 247, 249);
+}
+
+.fade-in {
+    animation: fadein 2s;
+}
+
+h1, h2, h3, h4, h5 {
+    color: $mainOrange;
+    margin-bottom: 30px;
+    
+}
+
+p, span {
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}
