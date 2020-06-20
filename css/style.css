@@ -543,4 +543,8 @@ section {
   overflow-y: auto;
   display: block;
 }
+
+footer #lista ul {
+  margin-top: 1em;
+}
 /*# sourceMappingURL=style.css.map */
