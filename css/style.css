@@ -498,6 +498,7 @@ section {
 #author-bio p {
   margin-bottom: 10px;
   text-align: justify;
+  overflow-y: auto;
 }
 
 #copyright {
